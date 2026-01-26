@@ -1,0 +1,95 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: "-apple-system", "SF Pro Display", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: -0.02em;
+}
+
+/* Улучшенная типографика заголовка */
+.hero-title {
+    background: linear-gradient(180deg, #fff 40%, #666 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 0.85;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+}
+
+.bento-card {
+    background: #0c0c0d;
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 32px;
+}
+
+@media (min-width: 768px) {
+    .bento-card { border-radius: 44px; }
+}
+
+.glow-sphere {
+    position: fixed;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(0, 113, 227, 0.15) 0%, rgba(0,0,0,0) 70%);
+    border-radius: 50%;
+    z-index: -1;
+    filter: blur(80px);
+    pointer-events: none;
+}
+
+/* Программа: Аккордеон */
+.prog-item { cursor: pointer; transition: 0.4s; }
+.prog-content { max-height: 0; overflow: hidden; transition: all 0.5s ease-in-out; opacity: 0; }
+.prog-item.active .prog-content { max-height: 1000px; opacity: 1; padding-top: 24px; }
+.plus-icon { transition: 0.4s; }
+.prog-item.active .plus-icon { transform: rotate(45deg); color: #0071e3; }
+
+/* Навигация слайдера */
+.nav-btn {
+    width: 50px; height: 50px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer; transition: 0.3s;
+    /* Убрали position: absolute, чтобы на мобилках они были в потоке */
+}
+
+.nav-btn:hover { background: #fff; }
+.nav-btn:hover svg { stroke: #000; }
+
+/* Специальный стиль для ПК (боковые кнопки) */
+.nav-btn.desktop {
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%);
+    z-index: 50;
+    width: 60px; height: 60px;
+}
+
+.nav-btn.desktop.prev { left: -20px; }
+.nav-btn.desktop.next { right: -20px; }
+
+@media (min-width: 1280px) {
+    .nav-btn.desktop.prev { left: -80px; }
+    .nav-btn.desktop.next { right: -80px; }
+}
+
+@media (max-width: 1279px) {
+    .nav-btn.desktop { background: rgba(0,0,0,0.8); backdrop-filter: blur(10px); }
+}
+
+.apple-btn {
+    background: #fff; color: #000;
+    padding: 16px 32px;
+    border-radius: 99px;
+    font-weight: 700; transition: 0.3s;
+    display: inline-flex; align-items: center; gap: 12px;
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    .apple-btn { padding: 20px 48px; font-size: 1.25rem; }
+}
+
+.apple-btn:hover { transform: scale(1.02); }
