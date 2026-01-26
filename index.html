@@ -4,254 +4,269 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PRIME | FLAGMAN SYSTEM</title>
+    <!-- SEO -->
+    <meta name="description" content="PRIME FLAGMAN SYSTEM - Обучение видеомонтажу. Выход на доход 150.000₽+ за 2 месяца.">
+    
+    <!-- Scripts & Styles -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="overflow-x-hidden">
+<body class="overflow-x-hidden bg-black text-white">
 
-<div class="glow-sphere" style="top: -10%; left: -10%;"></div>
-<div class="glow-sphere" style="bottom: -10%; right: -10%;"></div>
+    <!-- Background FX -->
+    <div class="glow-sphere" style="top: -10%; left: -10%;"></div>
+    <div class="glow-sphere" style="bottom: -10%; right: -10%;"></div>
 
-<!-- NAVBAR -->
-<nav class="fixed top-0 w-full z-[100] bg-black/60 backdrop-blur-2xl border-b border-white/5 px-4 md:px-8">
-    <div class="max-w-7xl mx-auto h-16 flex justify-between items-center text-[10px] font-bold uppercase tracking-widest">
-        <span class="text-xl font-black tracking-tighter">PRIME</span>
-        <div class="flex items-center gap-4 md:gap-8">
-            <a href="https://t.me/prime_inside" target="_blank" class="text-zinc-400 hover:text-[#0088cc] transition">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37097 0 0 5.37097 0 12C0 18.629 5.37097 24 12 24C18.629 24 24 18.629 24 12C24 5.37097 18.629 0 12 0ZM17.5645 8.18226L15.6435 17.2403C15.5032 17.8839 15.121 18.0435 14.6952 17.6806L11.7774 15.5323L10.3645 16.8919C10.2048 17.0468 10.0726 17.1774 9.77419 17.1774L9.98387 14.1919L15.4242 9.27419C15.6645 9.06452 15.3742 8.94677 15.0532 9.16452L8.32258 13.4032L5.42419 12.4968C4.79032 12.2952 4.77903 11.8645 5.55484 11.5645L16.8823 7.19032C17.4048 6.99677 17.8645 7.30645 17.5645 8.18226Z"/></svg>
-            </a>
-            <a href="#program" class="hidden md:block text-zinc-500 hover:text-white transition">Program</a>
-            <a href="#pricing" class="bg-white text-black px-5 py-2 rounded-full">Join</a>
-        </div>
-    </div>
-</nav>
-
-<!-- HERO SECTION -->
-<section class="min-h-screen flex flex-col items-center justify-center text-center px-4 md:px-6 pt-20">
-    <h1 class="hero-title text-[18vw] md:text-[13rem] uppercase">PRIME</h1>
-    <p class="text-zinc-500 text-base md:text-2xl max-w-2xl mt-4 md:mt-8 mb-8 md:mb-12 font-medium px-4">
-        Как подняться на монтаже с 0 до 150.000₽ за 2 месяца.
-    </p>
-    <a href="#pricing" class="apple-btn">Войти в систему</a>
-</section>
-
-<!-- STATS -->
-<section class="py-16 md:py-32 px-4 md:px-6 max-w-7xl mx-auto">
-    <div class="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-8">
-        <div class="bento-card col-span-12 md:col-span-8 p-6 md:p-20">
-            <h2 class="text-5xl md:text-8xl font-black tracking-tighter mb-6 md:mb-10 leading-[0.9]">
-                FLAGMAN.
-                <span class="block text-xl md:text-3xl text-zinc-600 mt-2 font-bold tracking-normal">
-                    17 ЛЕТ.
-                </span>
-            </h2>
-            <div class="flex gap-8 md:gap-12 border-t border-white/5 pt-8 md:pt-12 mb-8 md:mb-12">
-                <div><span class="text-3xl md:text-5xl font-black block">300K+</span><span class="text-[10px] text-zinc-600 uppercase font-bold tracking-widest">Личный доход</span></div>
-                <div><span class="text-3xl md:text-5xl font-black block text-blue-600">1M+</span><span class="text-[10px] text-zinc-600 uppercase font-bold tracking-widest">Доход учеников</span></div>
-            </div>
-            <p class="text-zinc-400 text-base md:text-xl leading-relaxed max-w-xl">Осенью 2024 зашел в монтаж, за 2 месяца вышел на хороший доход и принес сотни тысяч просмотров топам инфлюенсеров (даже тнт за заказом писали)<br><br> Весной 2025 завел свой блог и привнес абсолютно новый стиль монтажа в СНГ комьюнити, который впоследствии начали копировать ВСЕ<br><br>Создал свой продукт с ежемесячным доходом учеников более 1.000.000₽/мес</p>
-        </div>
-        <div class="bento-card col-span-12 md:col-span-4 h-[400px] md:h-auto min-h-[300px] overflow-hidden relative">
-            <img src="image.png" class="w-full h-full object-cover" alt="Profile" onerror="this.style.display='none'; this.parentNode.style.background='#111'">
-        </div>
-    </div>
-</section>
-
-<!-- PROGRAM -->
-<section id="program" class="py-16 md:py-32 px-4 md:px-6 max-w-4xl mx-auto">
-    <h2 class="text-4xl md:text-8xl font-black tracking-tighter mb-12 md:mb-20 text-center">Твой путь.</h2>
-    <div class="space-y-4">
-        <div class="prog-item bento-card p-6 md:p-10" onclick="this.classList.toggle('active')">
-            <div class="flex justify-between items-center"><h3 class="text-xl md:text-3xl font-bold">01. Обучение навыкам</h3><div class="plus-icon text-2xl md:text-3xl font-light text-zinc-600">+</div></div>
-            <div class="prog-content">
-                <div class="bg-blue-600/10 border border-blue-600/20 p-5 md:p-6 rounded-3xl mb-6"><p class="text-blue-500 font-bold uppercase text-[10px] tracking-widest mb-2">Результат:</p><p class="text-white text-lg font-bold leading-tight">Создашь продающее портфолио и положишь в него 5 качественных полноценных работ.</p></div>
-                <ul class="text-zinc-400 space-y-3 text-base md:text-lg"><li>• План действий для выхода на 150к+ на монтаже</li><li>• Качаем насмотренность, чувство вкуса и стиль</li><li>• Создаем твою первую работу в портфолио</li> <li>• Создаем твою вторую работу в портфолио</li> <li>• Оформляем себя и свой профиль так, чтобы он продавал</li> <li>• Разбираем монтаж известных блогеров</li></ul>
+    <!-- NAVBAR -->
+    <nav class="fixed top-0 w-full z-[100] bg-black/60 backdrop-blur-2xl border-b border-white/5 px-4 md:px-8">
+        <div class="max-w-7xl mx-auto h-16 flex justify-between items-center text-[10px] font-bold uppercase tracking-widest">
+            <span class="text-xl font-black tracking-tighter">PRIME</span>
+            <div class="flex items-center gap-4 md:gap-8">
+                <a href="https://t.me/prime_inside" target="_blank" aria-label="Telegram Channel" class="text-zinc-400 hover:text-[#0088cc] transition">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37097 0 0 5.37097 0 12C0 18.629 5.37097 24 12 24C18.629 24 24 18.629 24 12C24 5.37097 18.629 0 12 0ZM17.5645 8.18226L15.6435 17.2403C15.5032 17.8839 15.121 18.0435 14.6952 17.6806L11.7774 15.5323L10.3645 16.8919C10.2048 17.0468 10.0726 17.1774 9.77419 17.1774L9.98387 14.1919L15.4242 9.27419C15.6645 9.06452 15.3742 8.94677 15.0532 9.16452L8.32258 13.4032L5.42419 12.4968C4.79032 12.2952 4.77903 11.8645 5.55484 11.5645L16.8823 7.19032C17.4048 6.99677 17.8645 7.30645 17.5645 8.18226Z"/></svg>
+                </a>
+                <a href="#program" class="hidden md:block text-zinc-500 hover:text-white transition">Program</a>
+                <a href="#pricing" class="bg-white text-black px-5 py-2 rounded-full hover:scale-105 transition">Join</a>
             </div>
         </div>
-        <div class="prog-item bento-card p-6 md:p-10" onclick="this.classList.toggle('active')">
-            <div class="flex justify-between items-center"><h3 class="text-xl md:text-3xl font-bold">02. Продажи навыков</h3><div class="plus-icon text-2xl md:text-3xl font-light text-zinc-600">+</div></div>
-            <div class="prog-content">
-                <div class="bg-blue-600/10 border border-blue-600/20 p-5 md:p-6 rounded-3xl mb-6"><p class="text-blue-500 font-bold uppercase text-[10px] tracking-widest mb-2">Результат:</p><p class="text-white text-lg font-bold leading-tight">Создашь поток клиентов, перестанешь работать за низкие чеки и сможешь выйти на первые 70.000₽/мес</p></div>
-                <ul class="text-zinc-400 space-y-3 text-base md:text-lg"><li>• Подробный вводный курс по работе с клиентами и продажaм</li><li>• Изучаем все рабочие способы найти клиента </li><li>• Оттачиваем навык продаж, чтобы закрывать 7/10 клиентов в чате</li> <li>• Разбираем главные ошибки и причины, по которым у тебя нет заказов</li></ul>
-            </div>
-        </div>
-        <div class="prog-item bento-card p-6 md:p-10" onclick="this.classList.toggle('active')">
-            <div class="flex justify-between items-center"><h3 class="text-xl md:text-3xl font-bold">03. Масштабирование</h3><div class="plus-icon text-2xl md:text-3xl font-light text-zinc-600">+</div></div>
-            <div class="prog-content">
-                <div class="bg-blue-600/10 border border-blue-600/20 p-5 md:p-6 rounded-3xl mb-6"><p class="text-blue-500 font-bold uppercase text-[10px] tracking-widest mb-2">Результат:</p><p class="text-white text-lg font-bold leading-tight">Узнаешь всё про личный бренд, делегирование, дополнительный заработок в монтаже и пробьешь 150-300к/мес.</p></div>
-                <ul class="text-zinc-400 space-y-3 text-base md:text-lg"><li>• Разбираем основы делегирования и создания своей команды</li><li>• Перенимаем опыт монтажеров Гребенюка, Соломина, Курчанова и многих других на эфирах</li><li>• Разбираем пошаговую систему ведения ютуба в 2026, чтобы клиенты сами выстраивались в очередь</li></ul>
-            </div>
-        </div>
-        <div class="prog-item bento-card p-6 md:p-10 bg-white/[0.02]" onclick="this.classList.toggle('active')">
-            <div class="flex justify-between items-center"><h3 class="text-xl md:text-3xl font-bold italic">Бонус: Майндсет</h3><div class="plus-icon text-2xl md:text-3xl font-light text-zinc-600">+</div></div>
-            <div class="prog-content">
-                <div class="bg-blue-600/10 border border-blue-600/20 p-5 md:p-6 rounded-3xl mb-6"><p class="text-blue-500 font-bold uppercase text-[10px] tracking-widest mb-2">Результат:</p><p class="text-white text-lg font-bold leading-tight">Избавишься от лени и начнешь делать результат.</p></div>
-                <ul class="text-zinc-400 space-y-3 text-base md:text-lg"><li>• Как переиграть лень?</li><li>• Как успевать всё и добиваться результата быстрее?</li><li>• Как сфокусировано работать по 5-6 часов в день?</li></ul>
-            </div>
-        </div>
-    </div>
-    <div class="mt-12 md:mt-16 text-center">
-        <a href="https://t.me/prime_inside" class="apple-btn text-base md:text-lg group w-full md:w-auto justify-center">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-            ПОЛНЫЙ СПИСОК МАТЕРИАЛОВ
-        </a>
-    </div>
-</section>
+    </nav>
 
-<!-- REVIEWS / STORIES (ВСЕ СЛАЙДЫ В ОДНОМ СТИЛЕ) -->
-<section class="py-16 md:py-32 px-4 md:px-6">
-    <div class="max-w-6xl mx-auto relative text-center md:text-left">
-        
-        <!-- Заголовок + Навигация для мобилок -->
-        <div class="flex flex-row justify-between items-end mb-12 md:mb-20">
-            <h2 class="text-4xl md:text-8xl font-black tracking-tighter leading-none">Stories.</h2>
-            <!-- КНОПКИ МОБИЛЬНЫЕ -->
-            <div class="flex gap-4 md:hidden">
-                <div class="nav-btn prev"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg></div>
-                <div class="nav-btn next"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg></div>
-            </div>
-        </div>
+    <main>
+        <!-- HERO -->
+        <section class="min-h-screen flex flex-col items-center justify-center text-center px-4 md:px-6 pt-20">
+            <h1 class="hero-title text-[18vw] md:text-[13rem] uppercase">PRIME</h1>
+            <p class="text-zinc-400 text-base md:text-2xl max-w-2xl mt-4 mb-8 md:mb-12 font-medium px-4">
+                Как подняться на монтаже с 0 до 150.000₽ за 2 месяца.
+            </p>
+            <a href="#pricing" class="apple-btn shadow-xl shadow-white/5">Войти в систему</a>
+        </section>
 
-        <div class="relative">
-            <!-- КНОПКИ ДЕСКТОПНЫЕ (по бокам) -->
-            <div class="nav-btn prev desktop hidden md:flex"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg></div>
-            <div class="nav-btn next desktop hidden md:flex"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg></div>
-            
-            <div class="swiper reviewSwiper">
-                <div class="swiper-wrapper">
-
-                    <!-- Slide 1: ДАНИИЛ -->
-                    <div class="swiper-slide">
-                        <div class="bento-card p-6 md:p-14 flex flex-col md:flex-row gap-8 md:gap-12 items-center text-left h-full">
-                            <div class="w-full md:w-[40%] aspect-[9/16] bg-zinc-900 rounded-[24px] md:rounded-[36px] overflow-hidden relative group border border-white/5">
-                                <img src="assets/Daniil.JPG" alt="Фото daniila" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
-                            </div>
-                            <div class="w-full md:w-[60%] flex flex-col justify-center">
-                                <h3 class="text-3xl md:text-5xl font-black mb-2">Даниил, 17 лет</h3>
-                                <div class="text-3xl md:text-5xl font-black text-blue-500 mb-8 tracking-tighter">2500$ / мес</div>
-                                <div class="w-full h-[1px] bg-white/10 mb-8"></div>
-                                <div class="space-y-6">
-                                    <div>
-                                        <p class="text-xs md:text-sm text-zinc-500 uppercase font-bold tracking-widest mb-2 flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-zinc-600"></span> История</p>
-                                        <p class="text-base md:text-lg text-zinc-400 leading-relaxed">Начал обучение совсем молодым, совмещая с учебой. Хотел финансовой независимости от родителей.</p>
-                                    </div>
-                                    <div>
-                                        <p class="text-xs md:text-sm text-blue-500 uppercase font-bold tracking-widest mb-2 flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500 shadow-[0_0_10px_#3b82f6]"></span> Результат</p>
-                                        <p class="text-lg md:text-2xl text-white italic font-medium leading-relaxed">"Закрыл заказчицу на 88.000₽, купил себе и маме по последнему айфону."</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <!-- STATS -->
+        <section class="py-16 md:py-32 px-4 md:px-6 max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-8">
+                <div class="bento-card col-span-12 md:col-span-8 p-6 md:p-20">
+                    <h2 class="text-5xl md:text-8xl font-black tracking-tighter mb-6 md:mb-10 leading-[0.9]">
+                        FLAGMAN.
+                        <span class="block text-xl md:text-3xl text-zinc-600 mt-2 font-bold tracking-normal">
+                            17 ЛЕТ.
+                        </span>
+                    </h2>
+                    <div class="flex gap-8 md:gap-12 border-t border-white/5 pt-8 md:pt-12 mb-8 md:mb-12">
+                        <div><span class="text-3xl md:text-5xl font-black block">300K+</span><span class="text-[10px] text-zinc-500 uppercase font-bold tracking-widest">Личный доход</span></div>
+                        <div><span class="text-3xl md:text-5xl font-black block text-blue-600">1M+</span><span class="text-[10px] text-zinc-500 uppercase font-bold tracking-widest">Доход учеников</span></div>
                     </div>
-
-                    <!-- Slide 2: МАКС -->
-                    <div class="swiper-slide">
-                        <div class="bento-card p-6 md:p-14 flex flex-col md:flex-row gap-8 md:gap-12 items-center text-left h-full">
-                            <div class="w-full md:w-[40%] aspect-[9/16] bg-zinc-900 rounded-[24px] md:rounded-[36px] overflow-hidden relative group border border-white/5">
-                                <img src="assets/max.JPG" alt="Фото max" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
-                            </div>
-                            <div class="w-full md:w-[60%] flex flex-col justify-center">
-                                <h3 class="text-3xl md:text-5xl font-black mb-2">Макс, 19 лет</h3>
-                                <div class="text-3xl md:text-5xl font-black text-blue-500 mb-8 tracking-tighter">110.000₽ / мес</div>
-                                <div class="w-full h-[1px] bg-white/10 mb-8"></div>
-                                <div class="space-y-6">
-                                    <div>
-                                        <p class="text-xs md:text-sm text-zinc-500 uppercase font-bold tracking-widest mb-2 flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-zinc-600"></span> История</p>
-                                        <p class="text-base md:text-lg text-zinc-400 leading-relaxed">3 сентября он уволился с работы, чтобы полностью посвятить себя монтажу. Поставил цель — в ноябре улететь с братом во Вьетнам.</p>
-                                    </div>
-                                    <div>
-                                        <p class="text-xs md:text-sm text-blue-500 uppercase font-bold tracking-widest mb-2 flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500 shadow-[0_0_10px_#3b82f6]"></span> Результат</p>
-                                        <p class="text-lg md:text-2xl text-white italic font-medium leading-relaxed">"2 ноября присылает фотографии из путешествия. Комментарии излишни, разъебал."</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Slide 3: РОМА -->
-                    <div class="swiper-slide">
-                        <div class="bento-card p-6 md:p-14 flex flex-col md:flex-row gap-8 md:gap-12 items-center text-left h-full">
-                            <div class="w-full md:w-[40%] aspect-[9/16] bg-zinc-900 rounded-[24px] md:rounded-[36px] overflow-hidden relative group border border-white/5">
-                                <img src="assets/Roma.JPG" alt="Фото roma" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
-                            </div>
-                            <div class="w-full md:w-[60%] flex flex-col justify-center">
-                                <h3 class="text-3xl md:text-5xl font-black mb-2">Рома, 24 года</h3>
-                                <div class="text-3xl md:text-5xl font-black text-blue-500 mb-8 tracking-tighter">100.000₽ / нг</div>
-                                <div class="w-full h-[1px] bg-white/10 mb-8"></div>
-                                <div class="space-y-6">
-                                    <div>
-                                        <p class="text-xs md:text-sm text-zinc-500 uppercase font-bold tracking-widest mb-2 flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-zinc-600"></span> История</p>
-                                        <p class="text-base md:text-lg text-zinc-400 leading-relaxed">Работал в найме, не видел роста. Решил попробовать монтаж в свободное время.</p>
-                                    </div>
-                                    <div>
-                                        <p class="text-xs md:text-sm text-blue-500 uppercase font-bold tracking-widest mb-2 flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500 shadow-[0_0_10px_#3b82f6]"></span> Результат</p>
-                                        <p class="text-lg md:text-2xl text-white italic font-medium leading-relaxed">"Сделал 90.000₽ чисто за новогодние каникулы на монтаже."</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                     <!-- Slide 4: АРСЕН -->
-                    <div class="swiper-slide">
-                        <div class="bento-card p-6 md:p-14 flex flex-col md:flex-row gap-8 md:gap-12 items-center text-left h-full">
-                            <!-- Так будет с фото -->
-                            <div class="w-full md:w-[40%] aspect-[9/16] bg-zinc-900 rounded-[24px] md:rounded-[36px] overflow-hidden relative group border border-white/5">
-                                <img src="assets/Arsen.JPG" alt="Фото arsena" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
-                            </div>
-
-                            <div class="w-full md:w-[60%] flex flex-col justify-center">
-                                <h3 class="text-3xl md:text-5xl font-black mb-2">Арсен, 16 лет</h3>
-                                <div class="text-3xl md:text-5xl font-black text-blue-500 mb-8 tracking-tighter">60.000₽ / мес</div>
-                                <div class="w-full h-[1px] bg-white/10 mb-8"></div>
-                                <div class="space-y-6">
-                                    <div>
-                                        <p class="text-xs md:text-sm text-zinc-500 uppercase font-bold tracking-widest mb-2 flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-zinc-600"></span> История</p>
-                                        <p class="text-base md:text-lg text-zinc-400 leading-relaxed">Обычный ученик 10 класса. Искал карманные деньги, чтобы не зависеть от родителей.</p>
-                                    </div>
-                                    <div>
-                                        <p class="text-xs md:text-sm text-blue-500 uppercase font-bold tracking-widest mb-2 flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500 shadow-[0_0_10px_#3b82f6]"></span> Результат</p>
-                                        <p class="text-lg md:text-2xl text-white italic font-medium leading-relaxed">"Совмещает учебу в школе и стабильный заработок на навыке монтажа."</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                    <p class="text-zinc-400 text-base md:text-xl leading-relaxed max-w-xl">Осенью 2024 зашел в монтаж, за 2 месяца вышел на хороший доход и принес сотни тысяч просмотров топам инфлюенсеров (даже тнт за заказом писали)<br><br> Весной 2025 завел свой блог и привнес абсолютно новый стиль монтажа в СНГ комьюнити, который впоследствии начали копировать ВСЕ<br><br>Создал свой продукт с ежемесячным доходом учеников более 1.000.000₽/мес</p>
+                </div>
+                <div class="bento-card col-span-12 md:col-span-4 h-[400px] md:h-auto min-h-[300px] overflow-hidden relative">
+                    <!-- Loading Lazy + Alt text -->
+                    <img src="assets/image.png" loading="lazy" class="w-full h-full object-cover" alt="Profile Photo" onerror="this.style.display='none'; this.parentNode.style.background='#111'">
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="flex justify-center mt-12 md:mt-16">
-            <a href="https://t.me/prime_inside" class="apple-btn text-base md:text-lg">Все отзывы в ТГ</a>
-        </div>
-    </div>
-</section>
-
-<!-- PRICING -->
-<section id="pricing" class="py-16 md:py-40 px-4 md:px-6 max-w-6xl mx-auto">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-        <div class="bento-card p-8 md:p-16 flex flex-col justify-between border-white/10">
-            <div>
-                <h3 class="text-2xl md:text-3xl font-black mb-6 md:mb-10 uppercase tracking-widest">Вечный PRIME</h3>
-                <ul class="text-zinc-500 space-y-3 md:space-y-4 mb-8 md:mb-16 text-base md:text-lg font-medium"><li>• Полный доступ ко всем материалам</li><li>• ОКРУЖЕНИЕ ребят с впечатляющими результатами</li><li>• Регулярные эфиры с разборами работ</li><li>• Доступ к моей личной базе клиентов-миллионников </li></ul>
+        <!-- PROGRAM -->
+        <section id="program" class="py-16 md:py-32 px-4 md:px-6 max-w-4xl mx-auto">
+            <h2 class="text-4xl md:text-8xl font-black tracking-tighter mb-12 md:mb-20 text-center">Твой путь.</h2>
+            <div class="space-y-4">
+                <!-- Item 1 -->
+                <div class="prog-item bento-card p-6 md:p-10" onclick="this.classList.toggle('active')">
+                    <div class="flex justify-between items-center"><h3 class="text-xl md:text-3xl font-bold">01. Обучение навыкам</h3><div class="plus-icon text-2xl md:text-3xl font-light text-zinc-600">+</div></div>
+                    <div class="prog-content">
+                        <div class="bg-blue-600/10 border border-blue-600/20 p-5 md:p-6 rounded-3xl mb-6"><p class="text-blue-500 font-bold uppercase text-[10px] tracking-widest mb-2">Результат:</p><p class="text-white text-lg font-bold leading-tight">Создашь продающее портфолио и положишь в него 5 качественных полноценных работ.</p></div>
+                        <ul class="text-zinc-400 space-y-3 text-base md:text-lg"><li>• План действий для выхода на 150к+ на монтаже</li><li>• Качаем насмотренность, чувство вкуса и стиль</li><li>• Создаем твою первую работу в портфолио</li> <li>• Создаем твою вторую работу в портфолио</li> <li>• Оформляем себя и свой профиль так, чтобы он продавал</li> <li>• Разбираем монтаж известных блогеров</li></ul>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="prog-item bento-card p-6 md:p-10" onclick="this.classList.toggle('active')">
+                    <div class="flex justify-between items-center"><h3 class="text-xl md:text-3xl font-bold">02. Продажи навыков</h3><div class="plus-icon text-2xl md:text-3xl font-light text-zinc-600">+</div></div>
+                    <div class="prog-content">
+                        <div class="bg-blue-600/10 border border-blue-600/20 p-5 md:p-6 rounded-3xl mb-6"><p class="text-blue-500 font-bold uppercase text-[10px] tracking-widest mb-2">Результат:</p><p class="text-white text-lg font-bold leading-tight">Создашь поток клиентов, перестанешь работать за низкие чеки и сможешь выйти на первые 70.000₽/мес</p></div>
+                        <ul class="text-zinc-400 space-y-3 text-base md:text-lg"><li>• Подробный вводный курс по работе с клиентами и продажaм</li><li>• Изучаем все рабочие способы найти клиента </li><li>• Оттачиваем навык продаж, чтобы закрывать 7/10 клиентов в чате</li> <li>• Разбираем главные ошибки и причины, по которым у тебя нет заказов</li></ul>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="prog-item bento-card p-6 md:p-10" onclick="this.classList.toggle('active')">
+                    <div class="flex justify-between items-center"><h3 class="text-xl md:text-3xl font-bold">03. Масштабирование</h3><div class="plus-icon text-2xl md:text-3xl font-light text-zinc-600">+</div></div>
+                    <div class="prog-content">
+                        <div class="bg-blue-600/10 border border-blue-600/20 p-5 md:p-6 rounded-3xl mb-6"><p class="text-blue-500 font-bold uppercase text-[10px] tracking-widest mb-2">Результат:</p><p class="text-white text-lg font-bold leading-tight">Узнаешь всё про личный бренд, делегирование, дополнительный заработок в монтаже и пробьешь 150-300к/мес.</p></div>
+                        <ul class="text-zinc-400 space-y-3 text-base md:text-lg"><li>• Разбираем основы делегирования и создания своей команды</li><li>• Перенимаем опыт монтажеров Гребенюка, Соломина, Курчанова и многих других на эфирах</li><li>• Разбираем пошаговую систему ведения ютуба в 2026, чтобы клиенты сами выстраивались в очередь</li></ul>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="prog-item bento-card p-6 md:p-10 bg-white/[0.02]" onclick="this.classList.toggle('active')">
+                    <div class="flex justify-between items-center"><h3 class="text-xl md:text-3xl font-bold italic">Бонус: Майндсет</h3><div class="plus-icon text-2xl md:text-3xl font-light text-zinc-600">+</div></div>
+                    <div class="prog-content">
+                        <div class="bg-blue-600/10 border border-blue-600/20 p-5 md:p-6 rounded-3xl mb-6"><p class="text-blue-500 font-bold uppercase text-[10px] tracking-widest mb-2">Результат:</p><p class="text-white text-lg font-bold leading-tight">Избавишься от лени и начнешь делать результат.</p></div>
+                        <ul class="text-zinc-400 space-y-3 text-base md:text-lg"><li>• Как переиграть лень?</li><li>• Как успевать всё и добиваться результата быстрее?</li><li>• Как сфокусировано работать по 5-6 часов в день?</li></ul>
+                    </div>
+                </div>
             </div>
-            <div><div class="text-4xl md:text-6xl font-black mb-6 md:mb-10">13.900₽</div><a href="#" class="apple-btn w-full justify-center text-sm md:text-base">ВОЙТИ В PRIME</a></div>
-        </div>
-        <div class="bento-card p-8 md:p-16 flex flex-col justify-between bg-blue-600/[0.03] border-blue-600/20">
-            <div>
-                <h3 class="text-2xl md:text-3xl font-black mb-6 md:mb-10 uppercase tracking-widest text-blue-500">МЕНТОРСТВО</h3>
-                <ul class="text-zinc-400 space-y-3 md:space-y-4 mb-8 md:mb-16 text-base md:text-lg font-medium"><li>• Двухнедельное менторство от меня</li><li>• Вечный доступ в PRIME</li><li>• Обеспечь себе наилучший старт</li><li>• Конкретный план действий в голове, понимание КАЖДОГО шага на пути к цели</li><li>• Два живых разбора от меня + записи</li></ul>
+            <div class="mt-12 md:mt-16 text-center">
+                <a href="https://t.me/prime_inside" class="apple-btn text-base md:text-lg group w-full md:w-auto justify-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                    ПОЛНЫЙ СПИСОК МАТЕРИАЛОВ
+                </a>
             </div>
-            <div><div class="text-4xl md:text-6xl font-black mb-6 md:mb-10 text-blue-500">29.900₽</div><a href="#" class="apple-btn w-full justify-center !bg-blue-600 !text-white text-sm md:text-base">ВОЙТИ В PRIME</a></div>
-        </div>
-    </div>
-</section>
+        </section>
 
-<footer class="py-12 md:py-20 text-center opacity-20 text-[10px] font-black tracking-[1em]">© 2026 FLAGMAN SYSTEM</footer>
+        <!-- STORIES -->
+        <section class="py-16 md:py-32 px-4 md:px-6">
+            <div class="max-w-6xl mx-auto relative text-center md:text-left">
+                <!-- Header -->
+                <div class="flex flex-row justify-between items-end mb-12 md:mb-20">
+                    <h2 class="text-4xl md:text-8xl font-black tracking-tighter leading-none">Stories.</h2>
+                    <!-- Mob Nav -->
+                    <div class="flex gap-4 md:hidden">
+                        <div class="nav-btn prev" aria-label="Previous"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg></div>
+                        <div class="nav-btn next" aria-label="Next"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg></div>
+                    </div>
+                </div>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="script.js"></script>
+                <div class="relative">
+                    <!-- Desktop Nav -->
+                    <div class="nav-btn prev desktop hidden md:flex" aria-label="Previous"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg></div>
+                    <div class="nav-btn next desktop hidden md:flex" aria-label="Next"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg></div>
+                    
+                    <div class="swiper reviewSwiper">
+                        <div class="swiper-wrapper">
+                            <!-- 1. РОМА -->
+                            <div class="swiper-slide">
+                                <div class="bento-card p-6 md:p-14 flex flex-col md:flex-row gap-8 md:gap-12 items-center text-left h-full">
+                                    <div class="w-full md:w-[40%] aspect-[9/16] bg-zinc-900 rounded-[24px] md:rounded-[36px] overflow-hidden relative group border border-white/5">
+                                        <img src="assets/Roma.JPG" loading="lazy" alt="Roma" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                                    </div>
+                                    <div class="w-full md:w-[60%] flex flex-col justify-center">
+                                        <h3 class="text-3xl md:text-5xl font-black mb-2">Рома, 24 года</h3>
+                                        <div class="text-3xl md:text-5xl font-black text-blue-500 mb-8 tracking-tighter">100.000₽ / каникулы</div>
+                                        <div class="w-full h-[1px] bg-white/10 mb-8"></div>
+                                        <div class="space-y-6">
+                                            <div>
+                                                <p class="text-xs md:text-sm text-zinc-500 uppercase font-bold tracking-widest mb-2 flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-zinc-600"></span> История</p>
+                                                <p class="text-base md:text-lg text-zinc-400 leading-relaxed">Уволился с работы.</p>
+                                            </div>
+                                            <div>
+                                                <p class="text-xs md:text-sm text-blue-500 uppercase font-bold tracking-widest mb-2 flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500 shadow-[0_0_10px_#3b82f6]"></span> Результат</p>
+                                                <p class="text-lg md:text-2xl text-white italic font-medium leading-relaxed">"Сделал 90.000₽ за новогодние каникулы."</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 2. АРСЕН -->
+                            <div class="swiper-slide">
+                                <div class="bento-card p-6 md:p-14 flex flex-col md:flex-row gap-8 md:gap-12 items-center text-left h-full">
+                                    <div class="w-full md:w-[40%] aspect-[9/16] bg-zinc-900 rounded-[24px] md:rounded-[36px] overflow-hidden relative group border border-white/5">
+                                        <img src="assets/Arsen.JPG" loading="lazy" alt="Arsen" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                                    </div>
+                                    <div class="w-full md:w-[60%] flex flex-col justify-center">
+                                        <h3 class="text-3xl md:text-5xl font-black mb-2">Арсен, 16 лет</h3>
+                                        <div class="text-3xl md:text-5xl font-black text-blue-500 mb-8 tracking-tighter">60.000₽ / мес</div>
+                                        <div class="w-full h-[1px] bg-white/10 mb-8"></div>
+                                        <div class="space-y-6">
+                                            <div>
+                                                <p class="text-xs md:text-sm text-zinc-500 uppercase font-bold tracking-widest mb-2 flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-zinc-600"></span> История</p>
+                                                <p class="text-base md:text-lg text-zinc-400 leading-relaxed">Учился в 10 классе.</p>
+                                            </div>
+                                            <div>
+                                                <p class="text-xs md:text-sm text-blue-500 uppercase font-bold tracking-widest mb-2 flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500 shadow-[0_0_10px_#3b82f6]"></span> Результат</p>
+                                                <p class="text-lg md:text-2xl text-white italic font-medium leading-relaxed">"Совмещает учебу в школе и стабильный заработок."</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 3. МАКС -->
+                            <div class="swiper-slide">
+                                <div class="bento-card p-6 md:p-14 flex flex-col md:flex-row gap-8 md:gap-12 items-center text-left h-full">
+                                    <div class="w-full md:w-[40%] aspect-[9/16] bg-zinc-900 rounded-[24px] md:rounded-[36px] overflow-hidden relative group border border-white/5">
+                                        <img src="assets/max.JPG" loading="lazy" alt="Max" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                                    </div>
+                                    <div class="w-full md:w-[60%] flex flex-col justify-center">
+                                        <h3 class="text-3xl md:text-5xl font-black mb-2">Макс, 19 лет</h3>
+                                        <div class="text-3xl md:text-5xl font-black text-blue-500 mb-8 tracking-tighter">110.000₽ / мес</div>
+                                        <div class="w-full h-[1px] bg-white/10 mb-8"></div>
+                                        <div class="space-y-6">
+                                            <div>
+                                                <p class="text-xs md:text-sm text-zinc-500 uppercase font-bold tracking-widest mb-2 flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-zinc-600"></span> История</p>
+                                                <p class="text-base md:text-lg text-zinc-400 leading-relaxed">3 сентября он уволился с работы, чтобы полностью посвятить себя монтажу. Написал мне, что его цель - в ноябре улететь с братом во Вьетнам</p>
+                                            </div>
+                                            <div>
+                                                <p class="text-xs md:text-sm text-blue-500 uppercase font-bold tracking-widest mb-2 flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500 shadow-[0_0_10px_#3b82f6]"></span> Результат</p>
+                                                <p class="text-lg md:text-2xl text-white italic font-medium leading-relaxed">"2 ноября он присылает мне эти фотографии, комментарии излишни, разъебал"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 4. ДАНИИЛ -->
+                            <div class="swiper-slide">
+                                <div class="bento-card p-6 md:p-14 flex flex-col md:flex-row gap-8 md:gap-12 items-center text-left h-full">
+                                    <div class="w-full md:w-[40%] aspect-[9/16] bg-zinc-900 rounded-[24px] md:rounded-[36px] overflow-hidden relative group border border-white/5">
+                                        <img src="assets/Daniil.JPG" loading="lazy" alt="Daniil" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                                    </div>
+                                    <div class="w-full md:w-[60%] flex flex-col justify-center">
+                                        <h3 class="text-3xl md:text-5xl font-black mb-2">Даниил, 17 лет</h3>
+                                        <div class="text-3xl md:text-5xl font-black text-blue-500 mb-8 tracking-tighter">2500$ / мес</div>
+                                        <div class="w-full h-[1px] bg-white/10 mb-8"></div>
+                                        <div class="space-y-6">
+                                            <div>
+                                                <p class="text-xs md:text-sm text-zinc-500 uppercase font-bold tracking-widest mb-2 flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-zinc-600"></span> История</p>
+                                                <p class="text-base md:text-lg text-zinc-400 leading-relaxed">Начал обучение совсем молодым.</p>
+                                            </div>
+                                            <div>
+                                                <p class="text-xs md:text-sm text-blue-500 uppercase font-bold tracking-widest mb-2 flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500 shadow-[0_0_10px_#3b82f6]"></span> Результат</p>
+                                                <p class="text-lg md:text-2xl text-white italic font-medium leading-relaxed">"Закрыл заказчицу на 88.000₽, купил себе и маме по последнему айфону (фотки приложу)"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center mt-12 md:mt-16">
+                    <a href="https://t.me/prime_inside" class="apple-btn text-base md:text-lg">Все отзывы в ТГ</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRICING -->
+        <section id="pricing" class="py-16 md:py-40 px-4 md:px-6 max-w-6xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                <!-- Tariff 1 -->
+                <div class="bento-card p-8 md:p-16 flex flex-col justify-between border-white/10">
+                    <div>
+                        <h3 class="text-2xl md:text-3xl font-black mb-6 md:mb-10 uppercase tracking-widest">Вечный PRIME</h3>
+                        <ul class="text-zinc-500 space-y-3 md:space-y-4 mb-8 md:mb-16 text-base md:text-lg font-medium"><li>• Полный доступ ко всем материалам</li><li>• ОКРУЖЕНИЕ с результатами</li><li>• Эфиры с разборами работ</li><li>• Личная база клиентов-миллионников</li></ul>
+                    </div>
+                    <div>
+                        <div class="text-4xl md:text-6xl font-black mb-6 md:mb-10">13.900₽</div>
+                        <!-- Кнопка на всю ширину (w-full) -->
+                        <a href="#" class="apple-btn w-full justify-center text-sm md:text-base">ВОЙТИ В PRIME</a>
+                    </div>
+                </div>
+                <!-- Tariff 2 -->
+                <div class="bento-card p-8 md:p-16 flex flex-col justify-between bg-blue-600/[0.03] border-blue-600/20">
+                    <div>
+                        <h3 class="text-2xl md:text-3xl font-black mb-6 md:mb-10 uppercase tracking-widest text-blue-500">МЕНТОРСТВО</h3>
+                        <ul class="text-zinc-400 space-y-3 md:space-y-4 mb-8 md:mb-16 text-base md:text-lg font-medium"><li>• Двухнедельное менторство</li><li>• Вечный доступ в PRIME</li><li>• Конкретный план каждого шага</li><li>• Два живых разбора от меня + записи</li></ul>
+                    </div>
+                    <div>
+                        <div class="text-4xl md:text-6xl font-black mb-6 md:mb-10 text-blue-500">29.900₽</div>
+                        <!-- Кнопка на всю ширину (w-full) -->
+                        <a href="#" class="apple-btn w-full justify-center !bg-blue-600 !text-white text-sm md:text-base">ВОЙТИ В PRIME</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-12 md:py-20 text-center opacity-20 text-[10px] font-black tracking-[1em]">
+        © 2026 FLAGMAN SYSTEM
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
